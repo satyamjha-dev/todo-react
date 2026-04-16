@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://satyam:satyam%4025@cluster0.ta2trb9.mongodb.net/tododatabase");
+mongoose.connect("");
 
 // Define schemas
 const todocollection = new mongoose.Schema({
